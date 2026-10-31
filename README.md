@@ -1,5 +1,5 @@
 # Ex01 Portfolio
-## Date:
+## Date:31.10.2026
 
 ## AIM
 To create a Portfolio using HTML and CSS.
@@ -48,10 +48,132 @@ Deploy the Portfolio.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+~~~
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+</head>
+<body>
 
+    <!-- Header Section -->
+    <header>
+        <h1>Mutthu M</h1>
+        <p>Computer Science Student | Graphic Designer & Developer</p>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <figure>
+                <img src="profile.jpeg" alt="Photo of Mutthu M" width="200">
+                <figcaption>Hi I am, Mutthu M</figcaption>
+            </figure>
+            <p>
+
+Hi! I'm a Computer Science Engineering student passionate about Web Development and Graphic Design. I enjoy combining technology and creativity to build engaging digital experiences and visually appealing designs.
+
+I'm interested in developing responsive, user-friendly websites using HTML, CSS, JavaScript, and other modern web technologies. Alongside coding, I enjoy creating creative designs, exploring new design trends, and transforming ideas into meaningful visual experiences.
+
+I'm continuously learning, experimenting with new tools, and improving my technical and creative skills through projects and hands-on experience.
+
+My goal is to combine design and development to create digital experiences that are both functional and visually engaging.</p>
+        </section>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML5 Structure &amp; Semantic Markup</li>
+                <li>Graphic Design &amp; Asset Creation</li>
+                <li>C &amp; Python Programming</li>
+                <li>Machine Learning Foundations</li>
+            </ul>
+
+            <h3>Tools &amp; Software</h3>
+            <ul>
+                <li>Git &amp; GitHub</li>
+                <li>Aseprite</li>
+                <li>VS Code</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Featured Projects</h2>
+
+            <article>
+                <h3>ROAD-SOS</h3>
+                <p>RoadSOS is a smart road safety application designed to provide quick assistance during road accidents and emergencies. It allows users to register their personal details, vehicle numbers, and emergency contacts. With a single SOS button, users can share their location and send emergency alerts to their registered contacts through WhatsApp. The application also helps users identify nearby hospitals and report accidents using vehicle details, enabling faster emergency response and improving road safety.</p>
+                <p><strong>Technologies:</strong> Python, Artificial Intelligence, Machine Learning</p>
+            </article>
+
+            <article>
+                <h3>Safe-Her</h3>
+                <p>SafeHer is a women's safety application designed to help women travel safely and get quick assistance during emergencies. It allows users to start a journey, share their live location, and confirm when they reach their destination safely. The application includes features such as a one-tap SOS button, voice-activated emergency alerts, and automatic notifications to trusted contacts when help is needed. SafeHer aims to enhance personal safety through smart technology, real-time location sharing, and rapid emergency communication.</p>
+                <p><strong>Technologies:</strong> Data Analysis, Problem Solving</p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Degree / Program</th>
+                        <th>Institution</th>
+                        <th>Field of Study</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bachelor of Engineering (B.E.)</td>
+                        <td> Saveetha Engineering College</td>
+                        <td>Computer Science &amp; Engineering</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+~~~
 
 ## OUTPUT
 
+![alt text](<portfolio/Screenshot 2026-10-31 160434.png>)
 
+![alt text](<portfolio/Screenshot 2026-10-31 160705.png>)
 ## RESULT
 The program for creating Portfolio using HTML and CSS is executed successfully.
